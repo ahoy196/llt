@@ -2,7 +2,7 @@
 
 source 'https://rubygems.org'
 
-git_source(:github) { |llt| "https://github.com/#{ahoy196/llt}" }
+git_source(:github) { |repo| "https://github.com/#{repo}" }
 
 # gem "rails"
 gem 'rdoc'
