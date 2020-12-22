@@ -3,6 +3,8 @@
 class Entity
   attr_accessor :e
 
+  include Enumerable
+
   def say_hi
     puts "Hello, I'm #{@e}" unless @e.nil?
   end
@@ -35,4 +37,7 @@ class Perspective < Communicable
 end
 
 class Clock < Entity
+end
+
+class World < Entity
 end
