@@ -1,48 +1,37 @@
- class Entity
-    def initialize(e)
-      @val = e
-    end
+# frozen_string_literal: true
 
-    def transform(folds)
-      return @val
-    end
+class Entity
+  attr_accessor :e
 
-    def get
-      return Communicable.new(transform(@val))
-    end
-
-    def limitation
-        return Communicable.new(transform(super.get))
-    end
+  def transform(_folds)
+    @val
   end
 
-  class Effects < Entity
-    #We subclass Effects within Entity due to Newton's Second Law
-
+  def limitation
+    Communicable.new(transform(super.get))
   end
+end
 
-  class Communicable < Effects
-    def get
-      return @val
-    end
+class Effects < Entity
+  # We subclass Effects within Entity due to Newton's Second Law
+end
 
-    def set(c)
-      @val = c
-    end
+class Communicable < Effects
+  attr_accessor :c
 
-    def is_empty
-      # code here
-    end
+  def is_empty
+    # code here
   end
+end
 
-  class Perspective < Communicable
-    def get
-      return Communicable.new(@val)
-    end
+class Perspective < Communicable
+  def get
+    Communicable.new(@val)
   end
+end
 
-  class Clock < Entity
-    def get
-      return Communicable.new(@val)
-    end
+class Clock < Entity
+  def get
+    Communicable.new(@val)
   end
+end

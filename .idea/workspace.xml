@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b27f5d01-e208-4d51-bc93-3e0a55009837" name="Default Changelist" comment="jotting down LLT in Ruby">
-      <change afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/llt_spec.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run-test.http" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/llt.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/llt.iml" afterDir="false" />
+    <list default="true" id="b27f5d01-e208-4d51-bc93-3e0a55009837" name="Default Changelist" comment="more notes in Ruby">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/llt.rb" beforeDir="false" afterPath="$PROJECT_DIR$/llt.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/llt_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/llt_spec.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,8 +139,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="RSpec.llt_spec" />
-        <item itemvalue="Ruby Console.IRB: llt" />
         <item itemvalue="Ruby.llt" />
+        <item itemvalue="Ruby Console.IRB: llt" />
         <item itemvalue="Test::Unit/Shoulda/Minitest.LLTTest" />
       </list>
     </recent_temporary>
@@ -157,7 +154,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608639434934</updated>
-      <workItem from="1608639436469" duration="6539000" />
+      <workItem from="1608639436469" duration="7828000" />
     </task>
     <task id="LOCAL-00001" summary="jotting down LLT in Ruby">
       <created>1608640843290</created>
@@ -166,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608640843290</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="more notes in Ruby">
+      <created>1608647127107</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1608647127107</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,12 +190,13 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="jotting down LLT in Ruby" />
-    <option name="LAST_COMMIT_MESSAGE" value="jotting down LLT in Ruby" />
+    <MESSAGE value="more notes in Ruby" />
+    <option name="LAST_COMMIT_MESSAGE" value="more notes in Ruby" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/llt@IRB__llt.rcov" NAME="IRB: llt Coverage Results" MODIFIED="1608646208244" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="llt" />
     <SUITE FILE_PATH="coverage/llt@LLTTest.rcov" NAME="LLTTest Coverage Results" MODIFIED="1608644130964" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="llt" />
-    <SUITE FILE_PATH="coverage/llt@llt_spec.rcov" NAME="llt_spec Coverage Results" MODIFIED="1608647080256" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="llt" />
-    <SUITE FILE_PATH="coverage/llt@llt.rcov" NAME="llt Coverage Results" MODIFIED="1608644507379" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="llt" />
+    <SUITE FILE_PATH="coverage/llt@llt_spec.rcov" NAME="llt_spec Coverage Results" MODIFIED="1608648885635" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="llt" />
+    <SUITE FILE_PATH="coverage/llt@llt.rcov" NAME="llt Coverage Results" MODIFIED="1608648874511" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="llt" />
   </component>
 </project>
