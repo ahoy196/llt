@@ -7,10 +7,10 @@ Gem::Specification.new do |spec|
   spec.email = ["sisir.koppaka@gmail.com"]
 
   spec.summary = %q{lltv is a moving theatre company for your work}
-  spec.homepage = "https://github.com/ahoy196/llt"
+  spec.homepage = "https://github.com/ahoy196/lltv"
   spec.license = "Apache-2.0"
 
   spec.metadata = {
-    "source_code_uri" => "https://github.com/ahoy196/llt",
+    "source_code_uri" => "https://github.com/ahoy196/lltv",
   }
 end
