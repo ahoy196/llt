@@ -3,13 +3,15 @@
 class Entity
   attr_accessor :e
 
-  def transform(_folds)
-    @val
+  def say_hi
+    puts "Hello, I'm #{@e}" unless @e.nil?
   end
 
-  def limitation
-    Communicable.new(transform(super.get))
+  def transform(_folds)
+    _folds(@e) unless e.frozen?
   end
+
+  def limitation; end
 end
 
 class Effects < Entity
@@ -19,19 +21,18 @@ end
 class Communicable < Effects
   attr_accessor :c
 
-  def is_empty
-    # code here
+  # Static Intention of Communicable
+  def _communicable?
+    say_hi?
+  end
+
+  def _process(fact)
+    @c + fact
   end
 end
 
 class Perspective < Communicable
-  def get
-    Communicable.new(@val)
-  end
 end
 
 class Clock < Entity
-  def get
-    Communicable.new(@val)
-  end
 end
