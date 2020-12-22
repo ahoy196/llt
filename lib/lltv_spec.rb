@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require './llt'
+require './lltv'
 
 class EntityTest <
   RSpec.describe 'begins with a string' do
