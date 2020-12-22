@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b27f5d01-e208-4d51-bc93-3e0a55009837" name="Default Changelist" comment="minor fixes">
+    <list default="true" id="b27f5d01-e208-4d51-bc93-3e0a55009837" name="Default Changelist" comment="update gemspec with gem url and homepage">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lltv.gemspec" beforeDir="false" afterPath="$PROJECT_DIR$/lltv.gemspec" afterDir="false" />
     </list>
@@ -190,7 +190,7 @@
       <workItem from="1608651531136" duration="151000" />
       <workItem from="1608657565057" duration="3534000" />
       <workItem from="1608661146415" duration="2572000" />
-      <workItem from="1608663751154" duration="684000" />
+      <workItem from="1608663751154" duration="913000" />
     </task>
     <task id="LOCAL-00001" summary="jotting down LLT in Ruby">
       <created>1608640843290</created>
@@ -276,7 +276,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608664322474</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="update gemspec with gem url and homepage">
+      <created>1608664481480</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1608664481480</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -305,7 +312,8 @@
     <MESSAGE value="roll back change to git_source" />
     <MESSAGE value="bump up version to 0.2.0" />
     <MESSAGE value="minor fixes" />
-    <option name="LAST_COMMIT_MESSAGE" value="minor fixes" />
+    <MESSAGE value="update gemspec with gem url and homepage" />
+    <option name="LAST_COMMIT_MESSAGE" value="update gemspec with gem url and homepage" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/llt@IRB__llt.rcov" NAME="IRB: llt Coverage Results" MODIFIED="1608658637933" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="llt" />

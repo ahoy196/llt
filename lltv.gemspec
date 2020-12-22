@@ -2,7 +2,7 @@ version = File.read(File.expand_path("LLTV_VERSION", __dir__)).strip
 
 Gem::Specification.new do |spec|
   spec.name = "lltv"
-  spec.version = "0.1.0"
+  spec.version = version
   spec.authors = ["ahoy196"]
   spec.email = ["sisir.koppaka@gmail.com"]
 
