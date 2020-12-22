@@ -1,6 +1,4 @@
-module LLT
-
-  class Entity
+ class Entity
     def initialize(e)
       @val = e
     end
@@ -13,15 +11,13 @@ module LLT
       return Communicable.new(transform(@val))
     end
 
-    class Limitations
-      def get
+    def limitation
         return Communicable.new(transform(super.get))
-      end
     end
   end
 
-  #We subclass Effects within Entity due to Newton's Second Law
   class Effects < Entity
+    #We subclass Effects within Entity due to Newton's Second Law
 
   end
 
@@ -32,6 +28,10 @@ module LLT
 
     def set(c)
       @val = c
+    end
+
+    def is_empty
+      # code here
     end
   end
 
@@ -46,4 +46,3 @@ module LLT
       return Communicable.new(@val)
     end
   end
-end
