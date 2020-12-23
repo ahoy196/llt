@@ -2,7 +2,7 @@
 
 require './lltv'
 
-class EntityTest <
+class EntityTest
   RSpec.describe 'begins with a string' do
     it 'can instantiate a world with a string' do
       w = Entity.new

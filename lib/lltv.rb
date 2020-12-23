@@ -1,5 +1,4 @@
 # frozen_string_literal: true
-module LLT
   class Entity
     attr_accessor :e
 
@@ -41,4 +40,3 @@ module LLT
 
   class World < Entity
   end
-end
