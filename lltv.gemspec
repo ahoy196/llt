@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
 
   spec.summary = %q{lltv is a moving theatre company for your work}
   spec.homepage = "https://github.com/ahoy196/lltv"
-  spec.license = "Apache-2.0"
+  spec.license = "MIT"
 
   spec.metadata = {
     "source_code_uri" => "https://github.com/ahoy196/lltv",
