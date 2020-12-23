@@ -7,4 +7,7 @@ lltv can be used for building games, apps, windows display managers, and many ot
 #### Built with LLTV
 * a simple img-based framebuffer implementation in Ruby
 
+#### Project Status
+This particular implementation of LLTV is tracked at a public [Airtable](https://airtable.com/shrXISRCz3sM8dvyG/tblYTN391oTAOVd03).
+
 [1] [Life's Like That on Amazon](https://www.amazon.in/Lifes-Like-That-Sisir-Koppaka-ebook/dp/B08N6RW95V/ref=sr_1_6?dchild=1&keywords=life%27s+like+that&qid=1608663484&sr=8-6)

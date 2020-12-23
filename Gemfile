@@ -7,3 +7,5 @@ git_source(:github) { |repo| "https://github.com/#{repo}" }
 # gem "rails"
 gem 'rdoc'
 gem 'rspec'
+gem 'graphql-client'
+gem 'json'
