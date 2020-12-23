@@ -39,4 +39,8 @@
   end
 
   class World < Entity
+    attr_accessor :c #communicable
+    attr_accessor :k #clock
+    attr_accessor :p #perspective
+    attr_accessor :f #fact(s)
   end
